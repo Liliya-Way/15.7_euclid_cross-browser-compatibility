@@ -1,11 +1,10 @@
 html {
   box-sizing: border-box;
-  /* max-width: 1920px; */
 }
 
 *,
-*::after,
-*::before {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -203,10 +202,6 @@ img {
   width: 226px;
   height: 48px;
   transform: translateY(-15px);
-}
-
-.header__link {
-
 }
 
 .header__nav {
@@ -454,7 +449,6 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  /* text-align: center; */
   background: none;
 }
 
@@ -725,7 +719,7 @@ padding: 0;
 }
 
 .footer__logo {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer__nav {
@@ -779,7 +773,7 @@ margin-bottom: 20px;
 
 .footer__middle {
   flex-direction: column;
-  margin-right: 115px;
+  margin-right: auto;
 }
 
 .footer__subtitle {
